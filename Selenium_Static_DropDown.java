@@ -10,9 +10,9 @@ public class Selenium_Static_DropDown {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
+         System.setProperty("webdriver.chrome.driver", ".\\chromedriver_win32\\chromedriver.exe");
          WebDriver driver=new ChromeDriver();
-         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+         driver.get("https://www.spicejet.com/");
          
          
          //drop down with select static tag
